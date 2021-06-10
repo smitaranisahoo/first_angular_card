@@ -1,0 +1,17 @@
+<section class="pricing py-5 pt-8 pb-8" style="
+background: #007bff;
+background: linear-gradient(to right, #0062E6, #33AEFF);
+height: 710px;
+">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" *ngFor="let product of productData">
+        <div class="card mb-7 mb-lg-0">
+          <app-card 
+          [heading]="product.heading" [title]= "product.title" [subtitle]="product.subtitle" [item1]="product.item1" [item2]="product.item2" [item3]="product.item3" [item4]="product.item4"
+          [item5]="product.item5"[item6]="product.item6" [item7]="product.item7" [item8]="product.item8"></app-card>
+        </div>
+      </div>
+      </div>
+      </div>
+      </section>
